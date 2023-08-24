@@ -1,4 +1,4 @@
-# 接触WiFi认证(断开连接)攻击 Deauthentication
+# 解除WiFi认证(断开连接)攻击 Deauthentication
 ## Deauthentication
 * ```
     Deauthentication（断开连接）是一种无线网络管理帧（Management Frame）的类型，
