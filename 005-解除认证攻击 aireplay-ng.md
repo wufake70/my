@@ -54,7 +54,7 @@
     # or
     sudo iw wlan0 set channel 9
 
-# ```
+* ```
     # wrong info: Waiting for beacon frame (BSSID: 04:95:E6:51:64:A1) on channel 7 ,No such BSSID available.
     # 当进行长时间攻击(20~min)时，路由器会自动更换信道进行通信。
     # 查看当前wifi信道并切换
