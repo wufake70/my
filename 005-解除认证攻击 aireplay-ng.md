@@ -43,7 +43,20 @@
 
 ## 报错
 * ```
-    # 报错
-    ioctl(SIOCSIFFLAGS) failed: Operation not possible due to RF-kill
+    # wrong info: wlx0092c38a9764 is on channel 1, but the AP uses channel 7
+    # 在进行攻击时，需要保持在统一信道(连wifi也一样)
+
+    # 查看wifi适配器当前处于的信道
+    sudo iw wlan0 info
+
+    # 设置信道
+    sudo iwconfig wlan0 channel 7
+    # or
+    sudo iw wlan0 set channel 9
+
+* ```
+    # 报错 ioctl(SIOCSIFFLAGS) failed: Operation not possible due to RF-kill
+
     # 使用命令
     sudo rfkill unblock wifi
+
