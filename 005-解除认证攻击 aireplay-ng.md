@@ -41,6 +41,11 @@
     # 断开所有设备wifi
     sudo aireplay-ng --deauth 0 -a <目标BSSID> wlan0
 
+## 弊端
+```
+    # 对于5G 频段的路由器效果不佳。
+```
+
 ## 报错
 * ```
     # wrong info: wlx0092c38a9764 is on channel 1, but the AP uses channel 7
